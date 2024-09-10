@@ -20,8 +20,8 @@ export default function ContactsPage() {
       <div className="text-center my-6">
         {/* Link to create a new contact */}
         <Link
-          className="create-contacts-link p-2 rounded-md bg-blue-500 text-white"
           to="/contacts/create"
+          className="create-contacts-link p-2 rounded-md bg-blue-500 text-white"
         >
           Create Contact
         </Link>

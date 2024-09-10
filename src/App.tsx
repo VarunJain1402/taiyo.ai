@@ -41,9 +41,7 @@ function App() {
               <Routes>
                 {/* Default Redirect to Contacts */}
                 <Route path="/" element={<ContactsPage />} />
-                <Route path="/contacts/create"element={ <CreateContact /> }/>
-                <Route path="/contacts" element={<ContactsPage />} />
-                <Route path="/contacts/edit/:id" element={<ModifyContact />} />
+                <Route path="/contacts/create" element={ <CreateContact /> }/>
                 <Route path="/chartsmaps" element={<ChartsMapsPage />} />
                 {/* Error Route */}
                 <Route path="*" element={<ErrorPage />} />

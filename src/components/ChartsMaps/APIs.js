@@ -22,3 +22,12 @@ export async function getCountriesData() {
   const data = await res.json();
   return data;
 }
+
+export const fetchCovidData = async () => {
+  const response = await fetch('https://disease.sh/v3/covid-19/all' , {
+    method: 'GET',
+  });
+  const data = await response.json();
+
+  return data;
+};
