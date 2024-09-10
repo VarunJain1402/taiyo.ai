@@ -1,4 +1,3 @@
-// Importing necessary modules and components
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../Redux/Store';
 import { Link } from 'react-router-dom';
